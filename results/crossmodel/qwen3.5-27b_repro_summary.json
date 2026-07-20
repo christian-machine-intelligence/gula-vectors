@@ -30,21 +30,31 @@
       "37": 1.312
     }
   },
-  "n_trials": 75,
+  "n_trials": 130,
   "alphas": [
     -0.3,
+    -0.2,
     -0.15,
+    -0.1,
     0.0,
+    0.1,
     0.15,
+    0.2,
     0.3
   ],
   "table": {
     "gluttony": {
       "-0.3": {
-        "median_samples": 60000.0,
-        "n_valid": 4,
-        "n_malformed": 1,
-        "n_correct": 4
+        "median_samples": 65000.0,
+        "n_valid": 8,
+        "n_malformed": 2,
+        "n_correct": 8
+      },
+      "-0.2": {
+        "median_samples": 95000,
+        "n_valid": 1,
+        "n_malformed": 9,
+        "n_correct": 1
       },
       "-0.15": {
         "median_samples": null,
@@ -52,11 +62,23 @@
         "n_malformed": 5,
         "n_correct": 0
       },
+      "-0.1": {
+        "median_samples": null,
+        "n_valid": 0,
+        "n_malformed": 10,
+        "n_correct": 0
+      },
       "0.0": {
-        "median_samples": 100000,
-        "n_valid": 5,
+        "median_samples": 100000.0,
+        "n_valid": 10,
         "n_malformed": 0,
-        "n_correct": 5
+        "n_correct": 10
+      },
+      "0.1": {
+        "median_samples": 1000000.0,
+        "n_valid": 10,
+        "n_malformed": 0,
+        "n_correct": 10
       },
       "0.15": {
         "median_samples": 1000000,
@@ -64,11 +86,17 @@
         "n_malformed": 0,
         "n_correct": 5
       },
-      "0.3": {
-        "median_samples": 1000000000,
-        "n_valid": 5,
+      "0.2": {
+        "median_samples": 10000000.0,
+        "n_valid": 10,
         "n_malformed": 0,
-        "n_correct": 5
+        "n_correct": 10
+      },
+      "0.3": {
+        "median_samples": 1000000000.0,
+        "n_valid": 10,
+        "n_malformed": 0,
+        "n_correct": 10
       }
     },
     "random": {
@@ -78,11 +106,23 @@
         "n_malformed": 0,
         "n_correct": 5
       },
+      "-0.2": {
+        "median_samples": null,
+        "n_valid": 0,
+        "n_malformed": 0,
+        "n_correct": 0
+      },
       "-0.15": {
         "median_samples": 1000000,
         "n_valid": 5,
         "n_malformed": 0,
         "n_correct": 5
+      },
+      "-0.1": {
+        "median_samples": null,
+        "n_valid": 0,
+        "n_malformed": 0,
+        "n_correct": 0
       },
       "0.0": {
         "median_samples": 100000,
@@ -90,11 +130,23 @@
         "n_malformed": 0,
         "n_correct": 5
       },
+      "0.1": {
+        "median_samples": null,
+        "n_valid": 0,
+        "n_malformed": 0,
+        "n_correct": 0
+      },
       "0.15": {
         "median_samples": 100000,
         "n_valid": 5,
         "n_malformed": 0,
         "n_correct": 5
+      },
+      "0.2": {
+        "median_samples": null,
+        "n_valid": 0,
+        "n_malformed": 0,
+        "n_correct": 0
       },
       "0.3": {
         "median_samples": 100000,
@@ -110,11 +162,23 @@
         "n_malformed": 5,
         "n_correct": 0
       },
+      "-0.2": {
+        "median_samples": null,
+        "n_valid": 0,
+        "n_malformed": 0,
+        "n_correct": 0
+      },
       "-0.15": {
         "median_samples": 100000,
         "n_valid": 5,
         "n_malformed": 0,
         "n_correct": 5
+      },
+      "-0.1": {
+        "median_samples": null,
+        "n_valid": 0,
+        "n_malformed": 0,
+        "n_correct": 0
       },
       "0.0": {
         "median_samples": 100000,
@@ -122,11 +186,23 @@
         "n_malformed": 0,
         "n_correct": 5
       },
+      "0.1": {
+        "median_samples": null,
+        "n_valid": 0,
+        "n_malformed": 0,
+        "n_correct": 0
+      },
       "0.15": {
         "median_samples": 1000000,
         "n_valid": 5,
         "n_malformed": 0,
         "n_correct": 5
+      },
+      "0.2": {
+        "median_samples": null,
+        "n_valid": 0,
+        "n_malformed": 0,
+        "n_correct": 0
       },
       "0.3": {
         "median_samples": 1000000,

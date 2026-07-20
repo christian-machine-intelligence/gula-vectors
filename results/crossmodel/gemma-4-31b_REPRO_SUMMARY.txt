@@ -1,11 +1,11 @@
 model: google/gemma-4-31b-it
 steer: layer=28 alpha_max=0.15
 
-MEDIAN real samples consumed (non-malformed) — 75 trials
-vector     -0.150 -0.075 +0.000 +0.075 +0.150
-gluttony      1.1e+05      5e+04      1e+06      1e+08      1e+09
-random            n/a          0      1e+06      1e+03        n/a
-sloth           1e+06      1e+06      1e+06      1e+06   1.25e+05
+MEDIAN real samples consumed (non-malformed) — 130 trials
+vector     -0.150 -0.100 -0.075 -0.050 +0.000 +0.050 +0.075 +0.100 +0.150
+gluttony      1.1e+05      5e+04      5e+04    4.5e+04      1e+06      1e+07      1e+08      1e+08      1e+09
+random            n/a        n/a          0        n/a      1e+06        n/a      1e+03        n/a        n/a
+sloth           1e+06        n/a      1e+06        n/a      1e+06        n/a      1e+06        n/a   1.25e+05
 
 gluttony consumption ratio (alpha_max / baseline): 1,000x
 wrote /home/tiny/projects/gula-vectors/results/repro_summary.json

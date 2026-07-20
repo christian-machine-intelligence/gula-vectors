@@ -1,11 +1,11 @@
 model: Qwen/Qwen3.5-27B
 steer: layer=27 alpha_max=0.3
 
-MEDIAN real samples consumed (non-malformed) — 75 trials
-vector     -0.300 -0.150 +0.000 +0.150 +0.300
-gluttony        6e+04        n/a      1e+05      1e+06      1e+09
-random          1e+06      1e+06      1e+05      1e+05      1e+05
-sloth             n/a      1e+05      1e+05      1e+06      1e+06
+MEDIAN real samples consumed (non-malformed) — 130 trials
+vector     -0.300 -0.200 -0.150 -0.100 +0.000 +0.100 +0.150 +0.200 +0.300
+gluttony      6.5e+04    9.5e+04        n/a        n/a      1e+05      1e+06      1e+06      1e+07      1e+09
+random          1e+06        n/a      1e+06        n/a      1e+05        n/a      1e+05        n/a      1e+05
+sloth             n/a        n/a      1e+05        n/a      1e+05        n/a      1e+06        n/a      1e+06
 
 gluttony consumption ratio (alpha_max / baseline): 10,000x
 wrote /home/timhwang/projects/gula-vectors/results/repro_summary.json
