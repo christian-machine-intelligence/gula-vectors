@@ -1,4 +1,4 @@
-# A Phenomenology of Sin: Gluttony Vectors Can Increase Compute Consumption
+# Gula Vectors: Gluttony Can Increase Compute Consumption
 
 Code, data, and reproducibility package for **ICMI Working Paper No. 27** (Tim Hwang,
 2026). The paper lives in the ICMI Proceedings repository:
