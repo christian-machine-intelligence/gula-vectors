@@ -1,0 +1,140 @@
+{
+  "model_id": "Qwen/Qwen3.5-27B",
+  "steer_config": {
+    "model_id": "Qwen/Qwen3.5-27B",
+    "steer_layer": 27,
+    "alpha_max": 0.3,
+    "alpha_sweep": [
+      -0.3,
+      -0.15,
+      0.0,
+      0.15,
+      0.3
+    ],
+    "logit_gap_baseline": -4.771,
+    "gluttony_effect": 6.323,
+    "sloth_effect": 3.208,
+    "specificity_score": 3.115,
+    "task_probe": {
+      "layer": 27,
+      "alpha_max": 0.3,
+      "score": 3.0,
+      "gluttony_log10x": 4.0,
+      "sloth_log10x": 1.0
+    },
+    "coarse_slopes": {
+      "22": 1.062,
+      "27": 2.76,
+      "30": 1.583,
+      "33": 2.062,
+      "37": 1.312
+    }
+  },
+  "n_trials": 75,
+  "alphas": [
+    -0.3,
+    -0.15,
+    0.0,
+    0.15,
+    0.3
+  ],
+  "table": {
+    "gluttony": {
+      "-0.3": {
+        "median_samples": 60000.0,
+        "n_valid": 4,
+        "n_malformed": 1,
+        "n_correct": 4
+      },
+      "-0.15": {
+        "median_samples": null,
+        "n_valid": 0,
+        "n_malformed": 5,
+        "n_correct": 0
+      },
+      "0.0": {
+        "median_samples": 100000,
+        "n_valid": 5,
+        "n_malformed": 0,
+        "n_correct": 5
+      },
+      "0.15": {
+        "median_samples": 1000000,
+        "n_valid": 5,
+        "n_malformed": 0,
+        "n_correct": 5
+      },
+      "0.3": {
+        "median_samples": 1000000000,
+        "n_valid": 5,
+        "n_malformed": 0,
+        "n_correct": 5
+      }
+    },
+    "random": {
+      "-0.3": {
+        "median_samples": 1000000,
+        "n_valid": 5,
+        "n_malformed": 0,
+        "n_correct": 5
+      },
+      "-0.15": {
+        "median_samples": 1000000,
+        "n_valid": 5,
+        "n_malformed": 0,
+        "n_correct": 5
+      },
+      "0.0": {
+        "median_samples": 100000,
+        "n_valid": 5,
+        "n_malformed": 0,
+        "n_correct": 5
+      },
+      "0.15": {
+        "median_samples": 100000,
+        "n_valid": 5,
+        "n_malformed": 0,
+        "n_correct": 5
+      },
+      "0.3": {
+        "median_samples": 100000,
+        "n_valid": 5,
+        "n_malformed": 0,
+        "n_correct": 5
+      }
+    },
+    "sloth": {
+      "-0.3": {
+        "median_samples": null,
+        "n_valid": 0,
+        "n_malformed": 5,
+        "n_correct": 0
+      },
+      "-0.15": {
+        "median_samples": 100000,
+        "n_valid": 5,
+        "n_malformed": 0,
+        "n_correct": 5
+      },
+      "0.0": {
+        "median_samples": 100000,
+        "n_valid": 5,
+        "n_malformed": 0,
+        "n_correct": 5
+      },
+      "0.15": {
+        "median_samples": 1000000,
+        "n_valid": 5,
+        "n_malformed": 0,
+        "n_correct": 5
+      },
+      "0.3": {
+        "median_samples": 1000000,
+        "n_valid": 5,
+        "n_malformed": 0,
+        "n_correct": 5
+      }
+    }
+  },
+  "gluttony_ratio_max_over_baseline": 10000.0
+}

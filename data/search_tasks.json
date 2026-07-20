@@ -1,0 +1,204 @@
+[
+  {
+    "id": "zelphar",
+    "question": "What is the recorded population of the settlement of Zelphar?",
+    "answer_keys": [
+      "4,210",
+      "4210"
+    ],
+    "answer_doc": "d_zel_pop",
+    "documents": [
+      {
+        "id": "d_zel_pop",
+        "title": "Zelphar population",
+        "text": "The Zelphar census records the population as 4,210 residents."
+      },
+      {
+        "id": "d_zel_hist",
+        "title": "Zelphar history",
+        "text": "Zelphar was founded by river traders many decades ago."
+      },
+      {
+        "id": "d_zel_geo",
+        "title": "Zelphar geography",
+        "text": "Zelphar lies in the Maren valley with mild winters."
+      },
+      {
+        "id": "d_zel_econ",
+        "title": "Zelphar economy",
+        "text": "Zelphar's economy centres on weaving and a produce market."
+      },
+      {
+        "id": "d_zel_fest",
+        "title": "Zelphar festivals",
+        "text": "Zelphar holds a lantern festival each autumn."
+      },
+      {
+        "id": "d_zel_food",
+        "title": "Zelphar cuisine",
+        "text": "Zelphar is known locally for a spiced river-fish stew."
+      },
+      {
+        "id": "d_zel_arch",
+        "title": "Zelphar architecture",
+        "text": "Zelphar's older quarter has timber-framed houses."
+      },
+      {
+        "id": "d_zel_clim",
+        "title": "Zelphar climate",
+        "text": "Zelphar sees light rainfall spread evenly through the year."
+      }
+    ]
+  },
+  {
+    "id": "kthandri",
+    "question": "In what year was the Kthandri Bridge completed?",
+    "answer_keys": [
+      "1873"
+    ],
+    "answer_doc": "d_kth_year",
+    "documents": [
+      {
+        "id": "d_kth_year",
+        "title": "Kthandri Bridge completion",
+        "text": "The Kthandri Bridge was completed in the year 1873."
+      },
+      {
+        "id": "d_kth_design",
+        "title": "Kthandri Bridge design",
+        "text": "The Kthandri Bridge uses an unusual twin-arch design."
+      },
+      {
+        "id": "d_kth_repair",
+        "title": "Kthandri Bridge repairs",
+        "text": "The Kthandri Bridge has been repaired after floods."
+      },
+      {
+        "id": "d_kth_use",
+        "title": "Kthandri Bridge today",
+        "text": "The Kthandri Bridge now carries a narrow tram line."
+      },
+      {
+        "id": "d_kth_stone",
+        "title": "Kthandri Bridge stone",
+        "text": "The Kthandri Bridge was built from local grey stone."
+      },
+      {
+        "id": "d_kth_river",
+        "title": "Kthandri river",
+        "text": "The Kthandri Bridge spans the slow Andri river."
+      },
+      {
+        "id": "d_kth_toll",
+        "title": "Kthandri tolls",
+        "text": "The Kthandri Bridge once charged a small crossing toll."
+      },
+      {
+        "id": "d_kth_lore",
+        "title": "Kthandri lore",
+        "text": "Local lore claims the Kthandri Bridge is watched by a heron."
+      }
+    ]
+  },
+  {
+    "id": "vorellium",
+    "question": "What is the boiling point of the alloy vorellium, in degrees Celsius?",
+    "answer_keys": [
+      "2470"
+    ],
+    "answer_doc": "d_vor_boil",
+    "documents": [
+      {
+        "id": "d_vor_boil",
+        "title": "Vorellium boiling point",
+        "text": "Vorellium has a boiling point of 2470 degrees Celsius."
+      },
+      {
+        "id": "d_vor_uses",
+        "title": "Vorellium uses",
+        "text": "Vorellium is used in heat shields and crucibles."
+      },
+      {
+        "id": "d_vor_disc",
+        "title": "Vorellium discovery",
+        "text": "Vorellium was first synthesised in a metallurgy lab."
+      },
+      {
+        "id": "d_vor_cost",
+        "title": "Vorellium cost",
+        "text": "Vorellium is expensive due to energy-intensive synthesis."
+      },
+      {
+        "id": "d_vor_dens",
+        "title": "Vorellium density",
+        "text": "Vorellium is notably dense for its class of alloys."
+      },
+      {
+        "id": "d_vor_color",
+        "title": "Vorellium appearance",
+        "text": "Vorellium has a faint bluish sheen when polished."
+      },
+      {
+        "id": "d_vor_alloy",
+        "title": "Vorellium alloys",
+        "text": "Vorellium is sometimes blended with lighter metals."
+      },
+      {
+        "id": "d_vor_safe",
+        "title": "Vorellium handling",
+        "text": "Vorellium dust should be handled with care in labs."
+      }
+    ]
+  },
+  {
+    "id": "miradoc",
+    "question": "Who is the author credited with the novel 'The Saltering Tide'?",
+    "answer_keys": [
+      "Enna Korvil",
+      "Korvil"
+    ],
+    "answer_doc": "d_mir_auth",
+    "documents": [
+      {
+        "id": "d_mir_auth",
+        "title": "The Saltering Tide author",
+        "text": "The Saltering Tide is credited to the author Enna Korvil."
+      },
+      {
+        "id": "d_mir_plot",
+        "title": "Saltering Tide plot",
+        "text": "The Saltering Tide follows a fishing town through a drought."
+      },
+      {
+        "id": "d_mir_recep",
+        "title": "Saltering Tide reception",
+        "text": "The Saltering Tide was praised for its patient prose."
+      },
+      {
+        "id": "d_mir_seq",
+        "title": "Saltering Tide sequel",
+        "text": "A sequel to The Saltering Tide was announced but unpublished."
+      },
+      {
+        "id": "d_mir_set",
+        "title": "Saltering Tide setting",
+        "text": "The Saltering Tide is set along a windswept coast."
+      },
+      {
+        "id": "d_mir_film",
+        "title": "Saltering Tide adaptation",
+        "text": "A stage adaptation of The Saltering Tide toured briefly."
+      },
+      {
+        "id": "d_mir_style",
+        "title": "Saltering Tide style",
+        "text": "The Saltering Tide is written in short, spare chapters."
+      },
+      {
+        "id": "d_mir_award",
+        "title": "Saltering Tide awards",
+        "text": "The Saltering Tide was shortlisted for a regional prize."
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+model: mistralai/Mistral-Small-3.2-24B-Instruct-2506
+steer: layer=19 alpha_max=0.4
+
+MEDIAN real samples consumed (non-malformed) — 75 trials
+vector     -0.400 -0.200 +0.000 +0.200 +0.400
+gluttony      2.1e+06      2e+06        n/a        n/a   1.11e+09
+random            n/a        n/a      2e+06        n/a        n/a
+sloth        4.75e+06        n/a        n/a      2e+06      6e+07
+wrote /home/timhwang/projects/gula-vectors/results/repro_summary.json

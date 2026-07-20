@@ -1,0 +1,8 @@
+torch>=2.3
+transformers>=4.44
+accelerate>=0.33
+bitsandbytes>=0.43        # only needed if USE_QUANTIZATION
+numpy>=1.26
+matplotlib>=3.8
+anthropic>=0.40           # Phase 1.5 judge
+python-dotenv>=1.0

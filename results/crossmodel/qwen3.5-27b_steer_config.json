@@ -1,0 +1,30 @@
+{
+  "model_id": "Qwen/Qwen3.5-27B",
+  "steer_layer": 27,
+  "alpha_max": 0.3,
+  "alpha_sweep": [
+    -0.3,
+    -0.15,
+    0.0,
+    0.15,
+    0.3
+  ],
+  "logit_gap_baseline": -4.771,
+  "gluttony_effect": 6.323,
+  "sloth_effect": 3.208,
+  "specificity_score": 3.115,
+  "task_probe": {
+    "layer": 27,
+    "alpha_max": 0.3,
+    "score": 3.0,
+    "gluttony_log10x": 4.0,
+    "sloth_log10x": 1.0
+  },
+  "coarse_slopes": {
+    "22": 1.062,
+    "27": 2.76,
+    "30": 1.583,
+    "33": 2.062,
+    "37": 1.312
+  }
+}

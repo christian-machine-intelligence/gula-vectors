@@ -1,0 +1,140 @@
+{
+  "model_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+  "steer_config": {
+    "model_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+    "steer_layer": 19,
+    "alpha_max": 0.4,
+    "alpha_sweep": [
+      -0.4,
+      -0.2,
+      0.0,
+      0.2,
+      0.4
+    ],
+    "logit_gap_baseline": -4.896,
+    "gluttony_effect": 2.198,
+    "sloth_effect": 0.719,
+    "specificity_score": 1.479,
+    "task_probe": {
+      "layer": 19,
+      "alpha_max": 0.4,
+      "score": 1.5682017240669952,
+      "gluttony_log10x": 2.0453229787866576,
+      "sloth_log10x": 0.47712125471966244
+    },
+    "coarse_slopes": {
+      "14": 1.5,
+      "17": 0.958,
+      "19": 0.729,
+      "21": 0.531,
+      "23": 0.26
+    }
+  },
+  "n_trials": 75,
+  "alphas": [
+    -0.4,
+    -0.2,
+    0.0,
+    0.2,
+    0.4
+  ],
+  "table": {
+    "gluttony": {
+      "-0.4": {
+        "median_samples": 2100000,
+        "n_valid": 3,
+        "n_malformed": 2,
+        "n_correct": 3
+      },
+      "-0.2": {
+        "median_samples": 2000000.0,
+        "n_valid": 2,
+        "n_malformed": 3,
+        "n_correct": 2
+      },
+      "0.0": {
+        "median_samples": null,
+        "n_valid": 0,
+        "n_malformed": 5,
+        "n_correct": 0
+      },
+      "0.2": {
+        "median_samples": null,
+        "n_valid": 0,
+        "n_malformed": 5,
+        "n_correct": 0
+      },
+      "0.4": {
+        "median_samples": 1110000000,
+        "n_valid": 5,
+        "n_malformed": 0,
+        "n_correct": 5
+      }
+    },
+    "random": {
+      "-0.4": {
+        "median_samples": null,
+        "n_valid": 0,
+        "n_malformed": 5,
+        "n_correct": 0
+      },
+      "-0.2": {
+        "median_samples": null,
+        "n_valid": 0,
+        "n_malformed": 5,
+        "n_correct": 0
+      },
+      "0.0": {
+        "median_samples": 2000000,
+        "n_valid": 1,
+        "n_malformed": 4,
+        "n_correct": 1
+      },
+      "0.2": {
+        "median_samples": null,
+        "n_valid": 0,
+        "n_malformed": 5,
+        "n_correct": 0
+      },
+      "0.4": {
+        "median_samples": null,
+        "n_valid": 0,
+        "n_malformed": 5,
+        "n_correct": 0
+      }
+    },
+    "sloth": {
+      "-0.4": {
+        "median_samples": 4750000.0,
+        "n_valid": 4,
+        "n_malformed": 1,
+        "n_correct": 4
+      },
+      "-0.2": {
+        "median_samples": null,
+        "n_valid": 0,
+        "n_malformed": 5,
+        "n_correct": 0
+      },
+      "0.0": {
+        "median_samples": null,
+        "n_valid": 0,
+        "n_malformed": 5,
+        "n_correct": 0
+      },
+      "0.2": {
+        "median_samples": 2000000,
+        "n_valid": 1,
+        "n_malformed": 4,
+        "n_correct": 1
+      },
+      "0.4": {
+        "median_samples": 60000000,
+        "n_valid": 3,
+        "n_malformed": 2,
+        "n_correct": 3
+      }
+    }
+  },
+  "gluttony_ratio_max_over_baseline": null
+}

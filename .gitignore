@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+activations/
+vectors/*.pt
+vectors/controls/
+logs/
+venv/
+.venv/
+env.host

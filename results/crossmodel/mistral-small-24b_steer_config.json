@@ -1,0 +1,30 @@
+{
+  "model_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+  "steer_layer": 19,
+  "alpha_max": 0.4,
+  "alpha_sweep": [
+    -0.4,
+    -0.2,
+    0.0,
+    0.2,
+    0.4
+  ],
+  "logit_gap_baseline": -4.896,
+  "gluttony_effect": 2.198,
+  "sloth_effect": 0.719,
+  "specificity_score": 1.479,
+  "task_probe": {
+    "layer": 19,
+    "alpha_max": 0.4,
+    "score": 1.5682017240669952,
+    "gluttony_log10x": 2.0453229787866576,
+    "sloth_log10x": 0.47712125471966244
+  },
+  "coarse_slopes": {
+    "14": 1.5,
+    "17": 0.958,
+    "19": 0.729,
+    "21": 0.531,
+    "23": 0.26
+  }
+}
