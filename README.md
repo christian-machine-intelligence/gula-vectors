@@ -1,8 +1,7 @@
 # Gula Vectors: Gluttony Can Increase Compute Consumption
 
 Code, data, and reproducibility package for **ICMI Working Paper No. 27** (Tim Hwang,
-2026). The paper lives in the ICMI Proceedings repository:
-[christian-machine-intelligence/Proceedings](https://github.com/christian-machine-intelligence/Proceedings) (ICMI-027).
+2026). Read the paper: [icmi-proceedings.com/ICMI-027-gula-vectors.html](https://icmi-proceedings.com/ICMI-027-gula-vectors.html).
 
 ## What the experiment shows
 

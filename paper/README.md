@@ -1,2 +1,2 @@
-This paper lives in the ICMI Proceedings repository:
-https://github.com/christian-machine-intelligence/Proceedings (ICMI-027).
+The paper: [Gula Vectors: Gluttony Can Increase Compute Consumption](https://icmi-proceedings.com/ICMI-027-gula-vectors.html)
+(ICMI Working Paper No. 27, in the ICMI Proceedings).
